@@ -129,3 +129,13 @@ code {
   display: flex;
   justify-content: space-between;
 }
+
+.filter{
+  margin-bottom: 30px;
+}
+.filter button{
+  padding: 5px 15px;
+  color: #fff;
+  background: #3d4152;
+  border: 1px solid #2d3557;
+}
