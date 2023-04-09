@@ -130,6 +130,11 @@ code {
   justify-content: space-between;
 }
 
+.filterWrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 .filter{
   margin-bottom: 30px;
 }
@@ -138,4 +143,14 @@ code {
   color: #fff;
   background: #3d4152;
   border: 1px solid #2d3557;
+}
+.search input {
+  padding: 5px;
+  border: 1px solid #3d4152;
+}
+.search button {
+  padding: 5px;
+  border: 1px solid #3d4152;
+  background: #fff;
+  cursor: pointer;
 }
